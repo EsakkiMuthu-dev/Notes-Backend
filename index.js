@@ -12,6 +12,8 @@ app.use(cors());
 //use json parser 
 app.use(express.json());
 
+// show frontend
+app.use(express.static('dist'));
 
 //request logger
 // const requestLogger = (request, response, next) => {
